@@ -16,7 +16,6 @@ int maxSubArray(vector<int> &nums)
 }
 int main()
 {
-    // Chirag Varshney:1900290130052
     int n;
     cin >> n;
     vector<int> arr(n);
