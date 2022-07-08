@@ -2,7 +2,7 @@
 using namespace std;
 pair<int,int> missingAndRepeating(vector<int> &arr, int n)
 {
-	pair<int,int> ans;
+    pair<int,int> ans;
     vector<int> freq(n+1,0);
     for(int i=0;i<n;i++){
         freq[arr[i]]++;
