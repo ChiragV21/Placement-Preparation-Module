@@ -1,6 +1,5 @@
 class MedianFinder {
-public:
-    /** initialize your data structure here. */
+public: 
     int size;
     multiset<int> numsSet;
     multiset<int>::iterator midIter;
@@ -30,10 +29,3 @@ public:
         
     }
 };
-
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder* obj = new MedianFinder();
- * obj->addNum(num);
- * double param_2 = obj->findMedian();
- */
